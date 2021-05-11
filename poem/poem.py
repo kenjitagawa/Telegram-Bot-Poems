@@ -1,5 +1,4 @@
 import requests
-import json
 
 def get_poem():
     url = r'https://poetrydb.org/random'
