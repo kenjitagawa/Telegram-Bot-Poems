@@ -1,13 +1,16 @@
 from flask import Flask
 from flask import render_template
-from bot import bot
+import os
+import bot
 
 # Setting up server
 
 app = Flask(__name__)
+bot = bot.bot(f"/{ os.getenv('SECRET') }")
 
 @app.route('/'+os.getenv('SECRET'))
 def update():
+
     return "ok", 200
 
 @app.route('/')
