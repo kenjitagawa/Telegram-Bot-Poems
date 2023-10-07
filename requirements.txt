@@ -5,7 +5,7 @@ chardet==5.2.0
 click==8.1.7
 colorama==0.4.6
 decorator==5.1.1
-Flask==2.3.3
+Flask==3.0.0
 idna==3.4
 ipykernel==6.25.2
 ipython==8.15.0
